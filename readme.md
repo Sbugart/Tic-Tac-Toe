@@ -35,7 +35,8 @@ The architecture emphasizes low coupling and high cohesion between components.
 
 The system was designed following the UML class diagram:
 
-docs/class_diagram.PDF
+
+![Class Diagram](docs/class_diagram.PDF)
 
 ---
 
