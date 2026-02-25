@@ -13,7 +13,7 @@ void Human::DefineSide(side new_side) {
 void Human::getHumanMove(){
     int mov = 0;
     while(mov < 1 || mov > 9){
-        std::cout << "Please write a number to inform the position\nyou want to place your piece as follows:\n";
+        std::cout << "Please enter a number (1-9) to choose where you want to place your piece:\n";
 
         for(int i = 0; i < 3; ++i){
             for(int j = 0; j < 3; ++j){

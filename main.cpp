@@ -10,12 +10,12 @@ public:
     void AskForNewGame(){
         std::string quest; quest = "-1";
         while(true){
-            std::cout << "Hy there, wanna play Tic-Tac-Toe with me?" << std::endl;
-            std::cout << "If you want to play, write 'Y', if not 'N'" << std::endl;
+            std::cout << "Hi there! Do you want to play Tic-Tac-Toe with me?" << std::endl;
+            std::cout << "Enter 'Y' to play or 'N' to exit:" << std::endl;
             std::cin >> quest;
         
             if(quest == "N"){
-                std::cout << "OK, Good bye!!! :D" << std::endl;
+                std::cout << "OK, goodbye!" << std::endl;
                 break;
             }
             else if(quest == "Y"){
@@ -30,7 +30,7 @@ private:
     void StartGame(){
         std::string piece; piece = "-1";
         while(piece != "X" && piece != "O"){
-            std::cout << "To play with me you have to choose betwen 'X' or 'O' to play, so write here please." << std::endl;
+            std::cout << "Choose your side ('X' or 'O'): ";
             std::cin >> piece;
         }
 

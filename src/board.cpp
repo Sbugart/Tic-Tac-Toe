@@ -43,7 +43,7 @@ bool Board::IsFull() const{
 }
 
 void Board::PrintGrid() const{
-    std::cout << "Tabuleiro:" << std::endl;
+    std::cout << "Current Board:" << std::endl;
     for(int i = 0; i < 3; ++i){
         for(int j = 0; j < 3; ++j){
             std::cout << " " << (grid[i][j] == '-' ? ' ' : grid[i][j]) << (j < 2 ? " |" : "\n");

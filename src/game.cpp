@@ -53,7 +53,7 @@ void Game::EndGame(MoveResult gaming){
         std::cout << "Congratulations, you won the game!" << std::endl;
     }
     else{
-        std::cout << "You lost the game, maybe in another time?" << std::endl;
+        std::cout << "You lost the game. Better luck next time!" << std::endl;
     }
     Reset();
 }
