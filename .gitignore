@@ -1,0 +1,29 @@
+# Compiled object files
+*.o
+*.obj
+
+# Executables
+*.exe
+*.out
+*.app
+tictactoe
+
+# Static / dynamic libraries
+*.a
+*.so
+*.dll
+*.dylib
+
+# Build directories
+build/
+bin/
+
+# CMake 
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# VSCode
+.vscode/
+
